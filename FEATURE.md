@@ -1,7 +1,7 @@
 # 🚀 WebRover: Future Roadmap
 
 ## Vision
-WebRover aims to become the go-to library for generating high-quality, domain-specific datasets for deep learning and AI models. Our goal is to make dataset creation as simple and powerful as possible.
+WebRover aims to become the go-to library for generating high-quality, domain-specific datasets for deep learning and AI models. Our goal is to make dataset creation as simple and powerful as possible at NO COST.
 
 ---
 
