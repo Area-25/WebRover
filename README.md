@@ -198,7 +198,7 @@ WebRover automatically handles common issues:
 
 ## 🗺️ Roadmap
 
-See [FUTURE.md](FUTURE.md) for planned features and improvements.
+See [FUTURE.md](FEATURE.md) for planned features and improvements.
 
 ## 🤝 Contributing
 
