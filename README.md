@@ -6,6 +6,7 @@
 
 **WebRover is a powerful Python library for generating high-quality datasets from web content, designed specifically for training Large Language Models and AI applications.**
 
+![WebRover Logo](https://raw.githubusercontent.com/Area-25/webrover/main/.bin/WebRover.png)
 ---
 
 ## 🌟 Features
