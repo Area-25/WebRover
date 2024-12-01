@@ -7,22 +7,74 @@ __pycache__/
 dist/
 build/
 *.egg-info/
-*.egg
+*.eggs/
+.eggs/
+sdist/
+wheels/
 
 # Virtual environments
 venv/
 .venv/
 ENV/
+env/
+.env/
 
 # Environment files
 .env
+.env.*
 
 # IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
 
 # OS files
 .DS_Store
 Thumbs.db
+*.bak
+*~
 
+# Testing
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage/
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Project-specific
+final_dataset/
 final_dataset.jsonl
+*.jsonl
+test_dataset/
+examples/my_dataset/
+examples/example_output/
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+temp/
+
+# Local development
+local_settings.py
+db.sqlite3
+*.sqlite3
