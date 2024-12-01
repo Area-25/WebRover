@@ -2,7 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.1.11-green.svg)](https://github.com/Area-25/webrover/releases)
+[![Version](https://img.shields.io/badge/version-0.1.12-green.svg)](https://github.com/Area-25/webrover/releases)
 
 **WebRover is a powerful Python library for generating high-quality datasets from web content, designed specifically for training Large Language Models and AI applications.**
 

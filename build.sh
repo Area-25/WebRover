@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf build/ dist/ *.egg-info/
 python -m build
 # python -m twine upload --repository testpypi dist/*
