@@ -5,7 +5,7 @@ All notable changes to WebRover will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.12] - 2024-11-29
+## [0.1.12] - 2024-12-01
 
 ### Added
 - Comprehensive test suite for core functionality
@@ -38,11 +38,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Note
 - This marks the final patch release of the 0.1.x series. The next release will be v0.2.0 with major new features and improvements.
 
-## [0.1.11] - 2024-11-29
+## [0.1.11] - 2024-11-30
 
 ### Changed
 - Renamed `num_websites` parameter to `sites_per_topic` for clarity
-- Changed scraping behavior to handle sites per topic instead of total sites
+- Changed scraping behavior to handle sites per topic instead of total sites across all topics
 - Updated documentation and examples to reflect new parameter
 - Improved parameter descriptions in docstrings
 
