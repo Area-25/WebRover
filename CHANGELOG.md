@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Extended test coverage for complex scenarios
 - Additional test cases for error handling
 - Comprehensive file format testing
+- Project structure reorganization
+- Apache 2.0 License implementation
 
 ### Changed
 - Updated package classifiers for Python versions
@@ -24,12 +26,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced documentation for development setup
 - Expanded test coverage for utility functions
 - Improved overall test coverage to >80%
+- Cleaned repository structure
+- Moved build scripts to .scripts directory
 
 ### Fixed
 - Version compatibility issues
 - Test environment setup
 - Edge case handling in utility functions
 - Coverage gaps in core functionality
+
+### Note
+- This marks the final patch release of the 0.1.x series. The next release will be v0.2.0 with major new features and improvements.
 
 ## [0.1.11] - 2024-11-29
 
