@@ -198,22 +198,6 @@ WebRover automatically handles common issues:
 - Large datasets require more processing time
 - Google search may throttle excessive requests
 
-## 🗺️ Roadmap
-
-See [FEATURE.md](FEATURE.md) for planned features and improvements.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-Built with ❤️ by Area-25. Special thanks to all contributors.
-
 ---
 
 **WebRover: Build better datasets, train better models.** 🚀
@@ -254,3 +238,21 @@ python -m pytest tests/ --cov=webrover
 ### Supported Python Versions
 - Python 3.10
 - Python 3.11
+
+---
+
+## 🗺️ Roadmap
+
+See [FEATURE.md](FEATURE.md) for planned features and improvements.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+Built with ❤️ by Area-25. Special thanks to all contributors.
