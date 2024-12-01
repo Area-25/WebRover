@@ -149,8 +149,13 @@ class WebRover:
             logger.error("❌ Invalid topics format")
             raise ValueError("Invalid topics format")
 
+        # Validate topics list is not empty
+        if not topics_list:
+            logger.error("❌ Empty topics list")
+            raise ValueError("Topics list cannot be empty")
+
         self.topics = topics_list
-        self.urls_per_topic = sites_per_topic  # Direct assignment, no division needed
+        self.urls_per_topic = sites_per_topic
         logger.info(f"🎯 Will scrape {self.urls_per_topic} URLs per topic")
 
         # Run the scraping

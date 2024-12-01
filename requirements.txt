@@ -3,3 +3,5 @@ beautifulsoup4==4.12.3
 googlesearch-python==1.2.5
 pyyaml==6.0.2
 setuptools==75.6.0
+tqdm==4.67.1
+aiohttp==3.11.8

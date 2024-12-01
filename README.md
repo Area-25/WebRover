@@ -200,7 +200,7 @@ WebRover automatically handles common issues:
 
 ## 🗺️ Roadmap
 
-See [FUTURE.md](FEATURE.md) for planned features and improvements.
+See [FEATURE.md](FEATURE.md) for planned features and improvements.
 
 ## 🤝 Contributing
 
@@ -217,3 +217,40 @@ Built with ❤️ by Area-25. Special thanks to all contributors.
 ---
 
 **WebRover: Build better datasets, train better models.** 🚀
+
+## 🧪 Development & Testing
+
+### Setting Up Development Environment
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Area-25/webrover.git
+cd webrover
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install development dependencies:
+```bash
+pip install -e ".[tests]"
+```
+
+### Running Tests
+
+Run the test suite:
+```bash
+python -m pytest tests/
+```
+
+For test coverage report:
+```bash
+python -m pytest tests/ --cov=webrover
+```
+
+### Supported Python Versions
+- Python 3.10
+- Python 3.11

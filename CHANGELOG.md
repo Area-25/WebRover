@@ -5,6 +5,32 @@ All notable changes to WebRover will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.12] - 2024-11-29
+
+### Added
+- Comprehensive test suite for core functionality
+- Additional test suite for utils module
+- Test coverage reporting
+- Python version specifications (3.10, 3.11)
+- Additional test dependencies
+- Edge case testing for utility functions
+- Extended test coverage for complex scenarios
+- Additional test cases for error handling
+- Comprehensive file format testing
+
+### Changed
+- Updated package classifiers for Python versions
+- Improved package metadata
+- Enhanced documentation for development setup
+- Expanded test coverage for utility functions
+- Improved overall test coverage to >80%
+
+### Fixed
+- Version compatibility issues
+- Test environment setup
+- Edge case handling in utility functions
+- Coverage gaps in core functionality
+
 ## [0.1.11] - 2024-11-29
 
 ### Changed

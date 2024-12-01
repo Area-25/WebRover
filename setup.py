@@ -7,7 +7,7 @@ with io.open("README.md", encoding='utf-8') as f:
 
 setup(
     name="webrover",
-    version="0.1.11",
+    version="0.1.12",
     packages=find_packages(),
     install_requires=[
         "aiohttp==3.11.8",
@@ -16,6 +16,14 @@ setup(
         "pyyaml==6.0.2",
         "setuptools==75.6.0",
         "tqdm==4.67.1",
+        "aiohttp==3.11.8"
+    ],
+    tests_require=[
+        "pytest",
+        "pytest-asyncio",
+        "pytest-cov",
+        "aiohttp",
+        "pytest-asyncio"
     ],
     author="Area-25",
     author_email="jasonquist.ssh@gmail.com",
@@ -24,13 +32,14 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Area-25/webrover",
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    python_requires=">=3.10",
+    python_requires=">=3.10,<3.12",
     keywords="web-scraping, dataset-generation, machine-learning, ai-training, deep-learning",
     data_files=[
         ('', ['README.md', 'CHANGELOG.md']),
